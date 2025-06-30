@@ -63,13 +63,27 @@
             font-size: 20px;
         }
         .button {
+            display: inline-block;
             height: 50px;
-            background: #e8491d;
-            border: 0;
-            padding: 0 20px;
+            line-height: 50px;
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+            border: none;
+            border-radius: 25px;
+            padding: 0 30px;
             color: #fff;
-            font-size: 18px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
             cursor: pointer;
+            transition: all 0.3s ease 0s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:hover, .button:focus {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25);
+            outline: none;
         }
         #main {
             padding: 20px;
