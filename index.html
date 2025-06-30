@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIプログラミング学習コミュニティ</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            float: right;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #333 url('https://via.placeholder.com/1500x400') no-repeat 0 -200px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .button {
+            height: 50px;
+            background: #e8491d;
+            border: 0;
+            padding: 0 20px;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+        }
+        .feature-box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        #features {
+            margin-top: 20px;
+        }
+        #pricing {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .plan {
+            display: inline-block;
+            width: 45%;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+        }
+        #faq {
+            margin-top: 20px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">AI</span>プログラミング学習コミュニティ</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#features">特徴</a></li>
+                    <li><a href="#pricing">料金プラン</a></li>
+                    <li><a href="#faq">よくある質問</a></li>
+                    <li><a href="#" class="button">参加する</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>AIと共に、未来のコードを創造しよう。</h1>
+            <p>未経験からでも、AIプログラミングの専門家を目指せるコミュニティ。最新技術を学び、仲間と成長しませんか？</p>
+            <button class="button">今すぐ無料で体験する</button>
+        </div>
+    </section>
+
+    <section id="main" class="container">
+        <section id="features">
+            <h2 style="text-align:center;">コミュニティの特徴</h2>
+            <div class="feature-box">
+                <h3>現役エンジニアによるメンタリング</h3>
+                <p>現場で活躍するAIエンジニアが、あなたの学習を徹底サポートします。</p>
+            </div>
+            <div class="feature-box">
+                <h3>実践的なプロジェクト</h3>
+                <p>実務に近い課題で、ポートフォリオにもなる成果物を作成できます。</p>
+            </div>
+            <div class="feature-box">
+                <h3>活発なコミュニティ</h3>
+                <p>オンラインでいつでも質問・相談可能。仲間と共にモチベーションを維持できます。</p>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>料金プラン</h2>
+            <div class="plan">
+                <h3>無料プラン</h3>
+                <p>コミュニティへの参加</p>
+                <p>限定コンテンツの閲覧</p>
+                <p>月額: ¥0</p>
+                <button class="button">登録する</button>
+            </div>
+            <div class="plan">
+                <h3>プロプラン</h3>
+                <p>全てのコンテンツ閲覧</p>
+                <p>メンターへの質問し放題</p>
+                <p>限定イベントへの参加</p>
+                <p>月額: ¥9,800</p>
+                <button class="button">申し込む</button>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>よくある質問</h2>
+            <div>
+                <h4>Q. プログラミング初心者でも大丈夫ですか？</h4>
+                <p>A. はい、大丈夫です。本コミュニティは初心者の方でも基礎から学べるカリキュラムをご用意しています。</p>
+            </div>
+            <div>
+                <h4>Q. どのような支払い方法がありますか？</h4>
+                <p>A. クレジットカード決済に対応しています。</p>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <p>AIプログラミング学習コミュニティ &copy; 2025</p>
+    </footer>
+</body>
+</html>
